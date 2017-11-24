@@ -1,0 +1,8 @@
+{
+  "name": "hackapp",
+  "app_id": "1168bb34",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
