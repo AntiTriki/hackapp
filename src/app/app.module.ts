@@ -29,6 +29,7 @@ import { FirebaseDataProvider } from '../providers/firebase-data/firebase-data';
     HistorialPage,
     MapaPage,
     MedicamentosPage,
+    NuevomedicamentoPage,
     TabsPage,
     LoginPage,
     RegistrarPage
