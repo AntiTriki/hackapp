@@ -36,6 +36,7 @@ export class LoginPage {
     return firebase.auth.EmailAuthProvider.credential(email, password);
      /*.then(user=>Promise.resolve(user))
      .catch(err=>Promise.reject(err))*/
+     this.navCtrl.setRoot(TabsPage);
   }
   Registrer(){
   	this.navCtrl.push(RegistrarPage);
