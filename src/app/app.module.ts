@@ -16,6 +16,7 @@ import { RegistrarPage } from '../pages/registrar/registrar';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Geolocation } from '@ionic-native/geolocation';
+import {NuevomedicamentoPage} from "../pages/nuevomedicamento/nuevomedicamento";
 import { FirebaseDataProvider } from '../providers/firebase-data/firebase-data';
 
 
@@ -44,6 +45,7 @@ import { FirebaseDataProvider } from '../providers/firebase-data/firebase-data';
     HistorialPage,
     MapaPage,
     MedicamentosPage,
+    NuevomedicamentoPage,
     TabsPage,
     LoginPage,
     RegistrarPage

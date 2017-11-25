@@ -1,12 +1,33 @@
 <ion-header>
-
   <ion-navbar color="primaryd">
-    <ion-title>Contactos</ion-title>
+    <ion-title>CONTACTOS</ion-title>
   </ion-navbar>
-
 </ion-header>
 
-
 <ion-content padding>
-
+  <ion-list>
+    <ion-item-sliding #item>
+      <ion-item>
+        Jean Pierre Velez
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button (click)="favorite(item)"><ion-icon name="call"></ion-icon>Llamada</button>
+        <button ion-button color="danger" (click)="share(item)"><ion-icon name="text"></ion-icon>SMS</button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+  <ion-list>
+    <ion-item-sliding #item>
+      <ion-item>
+        Uriel Solis
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button (click)="favorite(item)"><ion-icon name="call"></ion-icon>Llamada</button>
+        <button ion-button color="danger" (click)="share(item)"><ion-icon name="text"></ion-icon>SMS</button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+  <ion-fab bottom right #fab>
+    <button ion-fab color="danger"><ion-icon name="md-add" (click)="nuevoMedicamento()"></ion-icon></button>
+  </ion-fab>
 </ion-content>
