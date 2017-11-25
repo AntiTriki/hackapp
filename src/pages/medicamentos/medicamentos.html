@@ -1,12 +1,15 @@
 <ion-header>
-
   <ion-navbar color="primaryd">
-    <ion-title>Mis Medicamentos</ion-title>
+    <ion-title>MIS MEDICAMENTOS</ion-title>
   </ion-navbar>
-
 </ion-header>
 
-
 <ion-content padding>
-
+    <div text-center>
+      <p class="subtitle" text-center>Oops!</p>
+      <b text-center>Actualmente no has añadido medicamentos</b>
+    </div>
+    <ion-fab bottom right #fab>
+      <button ion-fab color="danger"><ion-icon name="md-add" (click)="nuevoMedicamento()"></ion-icon></button>
+    </ion-fab>
 </ion-content>

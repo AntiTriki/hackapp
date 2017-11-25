@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the MedicamentosPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { NuevomedicamentoPage } from "../nuevomedicamento/nuevomedicamento";
 
 @IonicPage()
 @Component({
@@ -18,8 +12,8 @@ export class MedicamentosPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad MedicamentosPage');
+  nuevoMedicamento() {
+    this.navCtrl.push(NuevomedicamentoPage);
   }
 
 }
